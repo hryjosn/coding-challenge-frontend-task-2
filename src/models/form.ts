@@ -38,7 +38,7 @@ export interface FormField {
   type: FormFieldType;
   label: string;
   key: string;
-  value?: string | number | boolean | string[]; // default value or value for checkbox/radio
+  value?: string | number | boolean | string[] ; // default value or value for checkbox/radio
   options?: FormSelectOption[];
   placeholder?: string;
   errorMessages?: {
